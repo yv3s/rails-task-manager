@@ -2,25 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-a {
-  text-decoration: none;
-  color: #215B63;
-  &:hover {
-    color: #5FCC9C;
-  }
-}
 
-li {
-  list-style-type: none;
-}
-
-body {
-  font-family: 'Open Sans', sans-serif;
-  color: #215B63;
-  h1 {
-    font-family: 'Roboto', sans-serif;
-  }
-}
 
 .details {
   border: 1px solid #5FCC9C;
@@ -31,4 +13,46 @@ body {
   margin-bottom: 30px;
   background-color: #5FCC9C;
   color: white;
+}
+
+.form-container {
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.tasks-container {
+  a {
+  text-decoration: none;
+  color: #215B63;
+    &:hover {
+      color: #5FCC9C;
+    }
+  }
+  li {
+  list-style-type: none;
+  }
+}
+
+.footer {
+  margin-left: 20px;
+}
+
+.task-container {
+  a {
+  text-decoration: none;
+  color: #215B63;
+    &:hover {
+      color: #5FCC9C;
+    }
+  }
+  li {
+    list-style-type: none;
+  }
+  body {
+    font-family: 'Open Sans', sans-serif;
+    color: #215B63;
+  }
+  h1 {
+    font-family: 'Roboto', sans-serif;
+  }
 }
